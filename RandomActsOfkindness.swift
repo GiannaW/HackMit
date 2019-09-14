@@ -8,11 +8,11 @@
 
 import Foundation
 class RandomActsofkindness{
-    let actsofkind=["A",
-    "B",
-    "C",
-    "D",
-    "E",]
+    let actsofkind=["Create a holiday to celebrate someone you love",
+    "Share a compliment",
+    "Send a random thank-you email to someone you admire",
+    "Help someone load groceries into the car",
+    "Run an errand for someone",]
     func randomAct() -> String{
         
         let random=arc4random_uniform(UInt32(actsofkind.count))
